@@ -399,7 +399,7 @@
             <a class="inner-address" href="https://goo.gl/maps/U2Tdcyb7d477dYDr9"> Kyiv, Lesi Ukrainky ave, 26</a>
             
             <a class="mail-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <!-- <br> -->
+            
             <a class="tel-footer" href="tel:+380961111111">+38 096 111 11 11</a>
         </address>
         </div>
@@ -438,6 +438,7 @@
                     </a>
                 </li>
             </ul>
+        </div>
                 <form>
                     <label class="title-mail-footer">Subscribe for the mailing
                         <input type="text" name="mail" id="" class="form-footer placeholder-footer" placeholder="E-mail">
@@ -445,11 +446,10 @@
                 
                     <button type="submit" class="subscribe">Subscribe
                         <svg class="icon-footer" width="24" height="24">
-                            <use href="./imgage/spraits.svg#icon-send"></use>
+                            <use href="./imgages/spraits.svg#icon-send"></use>
                         </svg>
                     </button>
                 </form>
-            </div>
         </div>
     </footer>
     <!--/Footer-->
@@ -457,76 +457,66 @@
     <div class="backdrop is-hidden" data-modal>
         <div class="window-form">
             <h3 class="modal-text">
-                Leave your data, we will call you back
+                Leave your data, we will recall you
             </h3>
-                <form action="" class="input">
-                 
-                                <label class="label-text">Name
-                                    <span class="icons-form">
-                                        <input type="text" name="name" class="input-form" required minlength="2" maxlength="12" />
-                                        <svg class="icon-form" width="12" height="12">
-                                            <use href="./images/spraits.svg#icon-name"></use>
-                                        </svg>
-                                    </span>
-                                
-                                </label>
-                                <label class="label-text">Phone number
-                                    <span class="icons-form">
-                                        <input type="text" name="tel" class="input-form" required />
-                                        <svg class="icon-form" width="13" height="13">
-                                            <use href="./images/spraits.svg#icon-tel"></use>
-                                        </svg>
-                                    </span>
-                                
-                                </label>
-                                
-                                
-                                <label class="label-text">Mail
-                                    <span class="icons-form">
-                                        <input type="text" name="mail" class="input-form" />
-                                        <svg class="icon-form" width="15" height="12">
-                                            <use href="./images/spraits.svg#mail"></use>
-                                        </svg>
-                                    </span>
-                                
-                                </label>
-                                
-                                
-                                
-                                <label for="" class="coment-text">Comments</label>
-                                
-                                <textarea name="comment" class="area-input placeholder-text" placeholder="Введите текст"></textarea>
-                                
-                                
-                                <input type="checkbox" name="" id="">
-                                <label for=""> <span d> I agree with mailing and accept Terms of Service
-                                        <a href="">Terms of Service</a>
-                                    </span>
-                                
-                                
-                                </label>
-                                
-                                
-                                
-                                <button type="submit" class="btn-submit">Send</button>
-                                
-                                </form>
-                                
-                                <button class="inner-win" data-modal-close>
-                                
-                                    <svg class="close-win" width="11" height="11">
-                                        <use href="./images/win-close.svg#icon-close"></use>
-                                    </svg>
-                                </button>
+                <form action="#" class="input">
+                
+<label for="user_name" class="label-text">Name </label>
+<span class="icons-form">
+    <input type="text" name="name" class="input-form" required minlength="2" maxlength="12" id="user_name" />
+    <svg class="icon-form" width="12" height="12">
+        <use href="./images/spraits.svg#icon-name"></use>
+    </svg>
+</span>
 
-                </form>
-                    <button class="inner-win" data-modal-close>
-                <svg class="close-win" width="11" height="11">
-                    <use href="./images/win-close.svg#icon-close"></use>
-                </svg>
-            </button>
-        </div>
-    </div>
+
+<label for="user_tel" class="label-text">Phone number </label>
+<span class="icons-form">
+    <input type="text" name="tel" class="input-form" id="user_tel" required />
+    <svg class="icon-form" width="13" height="13">
+        <use href="./images/spraits.svg#icon-tel"></use>
+    </svg>
+</span>
+
+
+
+
+<label for="user_mail" class="label-text">Mail</label>
+<span class="icons-form">
+    <input type="text" name="mail" class="input-form" id="user_mail" />
+    <svg class="icon-form" width="15" height="12">
+        <use href="./images/spraits.svg#mail"></use>
+    </svg>
+</span>
+
+<label for="com-text" class="coment-text">Commentary</label>
+<textarea name="comment" class="area-input placeholder-text" placeholder="Введите текст" id="com-text"></textarea>
+
+<div class="check">
+    <input type="checkbox" name="policy" id="check" class="checkbox-modal visually-hidden">
+    <label class="text-condition" for="check">
+        <span class="check-label">
+            <svg class="icon-check" width="11" height="9">
+                <use href="./images/spraits.svg#icon-check"></use>
+            </svg>
+        </span>
+        I subscribe to the mailing and accept <a class="link-condition" href=""> Terms of Service</a></label>
+</div>
+<button type="submit" class="btn-submit">Send</button>
+
+</form>
+
+<button class="inner-win" data-modal-close>
+
+    <svg class="close-win" width="11" height="11">
+        <use href="./images/win-close.svg#icon-close"></use>
+    </svg>
+</button>
+</div>
+
+</div>
+
+
 <script src="./js/modal.js"></script>
 </body>
 </html>
