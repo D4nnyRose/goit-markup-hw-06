@@ -1,2 +1,2 @@
-# goit-markup-hw-06
-my-hw6
+# goit-markup-hw-05
+my-hw-5
